@@ -1,0 +1,170 @@
+
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* general styles */
+*, *::after, *::before {
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1250px;
+    margin: 0 auto;
+    padding: 0 32px;
+}
+
+body {
+    line-height: 1.5;
+    font-size: 16px;
+    background-color: rgb(212,206,167);
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* header */
+
+.header {
+    background-color: rgb(249,97,21);
+    padding: 32px 0;
+}
+
+.flex a {
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    margin-left: 23px;
+    font-weight: 700;
+}
+
+
+.div-1 {
+    background-color: rgb(0,89,121);
+    color: white;
+    width: 30%;
+    height: 650px;
+    box-shadow: 6px 6px 9px 4px rgb(71, 69, 69);
+    padding-top: 19px;
+    padding-left: 17px;
+    font-weight: 600;
+    line-height: 2;
+}
+
+.div-1 .order{
+  list-style-type: decimal;  
+  list-style-position: inside; 
+  
+  font-weight: 600;
+}
+
+/* section-1 */
+
+.section-1 {
+    margin: 30px 0;
+}
+
+.ul-1 {
+    list-style-type: disc;  
+    list-style-position: inside; 
+}
+
+.ul-1 .last-order {
+    list-style-position: inside;
+    list-style-type: decimal;
+    margin-left: 15px;
+}
+
+.last-order ul {
+    list-style: square inside;
+    margin-left: 15px;
+}
+
+.div-1 .last-ul {
+    list-style: url(../Media/check1.png) inside ;
+}
+
+
+
+
+/* dl */
+
+dl {
+    list-style-position: inside;
+}
+
+dt {
+    color: rgb(99,88,62);
+    font-size: 24px;
+    
+}
+
+dd {
+    color: rgb(143,120,91);
+    padding-left: 20px;
+    margin-bottom: 30px;
+    line-height: 1.8;
+}
+
+.footer {
+    background-color: rgb(99,88,62);
+    padding: 32px 0;
+}
+
+
+
+
+
+
+
+
+
+
